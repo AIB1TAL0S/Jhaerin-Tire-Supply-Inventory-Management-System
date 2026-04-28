@@ -26,7 +26,7 @@ Incremental implementation of the JTS-IMS SvelteKit + Tauri application. Each ta
   - Create `src/lib/schemas/settings.schema.ts` with settings and delivery provider schemas
   - _Requirements: 18.1, 18.2_
 
-  - [ ]* 2.1 Write property test for Zod schema round-trip validation
+  - [x]* 2.1 Write property test for Zod schema round-trip validation
     - **Property 15: Zod schema round-trip validation**
     - Generate arbitrary valid `TireProduct`, `StockInTransaction`, `StockOutTransaction`, and `SalesTransaction` objects with fast-check; serialize to schema input shape and parse back; assert structural equivalence
     - **Validates: Requirements 18.1, 18.2**
@@ -57,12 +57,12 @@ Incremental implementation of the JTS-IMS SvelteKit + Tauri application. Each ta
   - `createProduct` MUST catch SQLite unique constraint violations on `(brand, size, pattern)` and throw a typed `DuplicateProductError`
   - _Requirements: 8.1, 8.2, 8.3, 8.5, 8.8_
 
-  - [~]* 6.1 Write property test for retail price ≥ cost price invariant
+  - [x]* 6.1 Write property test for retail price ≥ cost price invariant
     - **Property 6: Retail price ≥ cost price invariant**
     - Generate arbitrary products where `retailPrice < unitCostPrice`; assert `createProduct` and `updateProduct` reject with `ValidationError`; generate valid products and assert they persist
     - **Validates: Requirements 8.8, 18.4**
 
-  - [~]* 6.2 Write property test for duplicate product rejection
+  - [x]* 6.2 Write property test for duplicate product rejection
     - **Property 7: Duplicate product rejection**
     - Generate arbitrary `(brand, size, pattern)` tuples; create first product; attempt to create second with same tuple; assert `DuplicateProductError` is thrown and catalog count is unchanged
     - **Validates: Requirements 8.5, 18.4**
@@ -81,17 +81,17 @@ Incremental implementation of the JTS-IMS SvelteKit + Tauri application. Each ta
   - `deleteStockIn` MUST decrement `tire_products.quantity` by the deleted transaction's quantity; quantity MUST NOT go below zero (throw `InsufficientStockError` if it would)
   - _Requirements: 9.1, 9.2, 9.3, 9.4, 9.7_
 
-  - [~]* 8.1 Write property test for Stock-In quantity invariant
+  - [x]* 8.1 Write property test for Stock-In quantity invariant
     - **Property 1: Stock-In quantity invariant**
     - Generate arbitrary product with quantity Q and stock-in with positive quantity N; assert post-save quantity equals Q + N
     - **Validates: Requirements 9.1**
 
-  - [~]* 8.2 Write property test for Stock-In edit recalculation
+  - [x]* 8.2 Write property test for Stock-In edit recalculation
     - **Property 8: Stock-In edit recalculation**
     - Generate existing stock-in with original quantity O; edit to new quantity N; assert product quantity equals pre-edit quantity + (N − O)
     - **Validates: Requirements 9.3**
 
-  - [~]* 8.3 Write property test for Stock-In delete decrements quantity
+  - [x]* 8.3 Write property test for Stock-In delete decrements quantity
     - **Property 11: Stock-In delete decrements quantity**
     - Generate product with quantity Q and stock-in with quantity N (N ≤ Q); delete the transaction; assert product quantity equals Q − N and is never negative
     - **Validates: Requirements 9.4**
@@ -106,12 +106,12 @@ Incremental implementation of the JTS-IMS SvelteKit + Tauri application. Each ta
   - `createStockOut` MUST check `quantity <= product.quantity` before decrementing; throw `InsufficientStockError` if insufficient; decrement in the same SQLite transaction
   - _Requirements: 10.1, 10.2, 10.3_
 
-  - [~]* 10.1 Write property test for Stock-Out quantity invariant
+  - [x]* 10.1 Write property test for Stock-Out quantity invariant
     - **Property 2: Stock-Out quantity invariant (valid case)**
     - Generate product with quantity Q and stock-out with quantity N where N ≤ Q; assert post-save quantity equals Q − N and is never negative
     - **Validates: Requirements 10.1, 10.3, 18.5**
 
-  - [~]* 10.2 Write property test for Stock-Out rejection when insufficient
+  - [x]* 10.2 Write property test for Stock-Out rejection when insufficient
     - **Property 3: Stock-Out rejection when insufficient**
     - Generate product with quantity Q and stock-out with quantity N where N > Q; assert `InsufficientStockError` is thrown and product quantity remains Q
     - **Validates: Requirements 10.3, 18.5**
@@ -165,7 +165,7 @@ Incremental implementation of the JTS-IMS SvelteKit + Tauri application. Each ta
   - On Tauri desktop target, call the Tauri notification plugin for `low_stock` and `dead_stock` alerts
   - _Requirements: 14.1, 14.2, 14.3, 14.5, 14.6, 14.7_
 
-  - [~]* 15.1 Write property test for low stock alert threshold
+  - [x]* 15.1 Write property test for low stock alert threshold
     - **Property 14: Low stock alert threshold**
     - Generate arbitrary products with various quantities and thresholds (product-specific and global); after a quantity-decrement operation, assert that every product at or below its effective threshold has a `low_stock` notification
     - **Validates: Requirements 14.1, 17.1, 17.2**
@@ -181,12 +181,12 @@ Incremental implementation of the JTS-IMS SvelteKit + Tauri application. Each ta
   - Implement `exportReport` that generates PDF and uploads to Supabase Storage; return storage URL; create `report_ready` notification on success
   - _Requirements: 12.1, 12.2, 12.3, 12.4, 12.6, 12.7, 13.1, 13.2, 13.3, 13.5, 13.6_
 
-  - [~]* 16.1 Write property test for inventory value calculation
+  - [x]* 16.1 Write property test for inventory value calculation
     - **Property 12: Inventory value calculation**
     - Generate arbitrary sets of active products with random quantities and unit cost prices; assert `getInventoryValue()` equals the sum of `quantity × unit_cost_price` for every product in the set
     - **Validates: Requirements 12.3**
 
-  - [~]* 16.2 Write property test for profit margin calculation
+  - [ ]* 16.2 Write property test for profit margin calculation
     - **Property 13: Profit margin calculation**
     - Generate arbitrary products where `retailPrice >= unitCostPrice`; assert calculated margin equals `(P − C) / P * 100` and is always in [0, 100]
     - **Validates: Requirements 13.1**

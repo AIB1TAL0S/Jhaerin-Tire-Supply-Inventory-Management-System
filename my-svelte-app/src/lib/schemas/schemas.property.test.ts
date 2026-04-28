@@ -21,7 +21,7 @@ const arbNonEmptyString = (max = 50) =>
 	fc.string({ minLength: 1, maxLength: max }).filter((s) => s.trim().length > 0);
 
 const arbPositivePrice = fc
-	.float({ min: 0.01, max: 9999.99, noNaN: true, noDefaultInfinity: true })
+	.float({ min: Math.fround(0.01), max: Math.fround(9999.99), noNaN: true, noDefaultInfinity: true })
 	.map((v) => Math.round(v * 100) / 100);
 
 const arbPricePair = fc.tuple(arbPositivePrice, arbPositivePrice).map(([a, b]) => ({
@@ -32,8 +32,8 @@ const arbPricePair = fc.tuple(arbPositivePrice, arbPositivePrice).map(([a, b]) =
 const arbUuid = fc.uuid();
 
 const arbIsoDatetime = fc
-	.date({ min: new Date('2020-01-01'), max: new Date('2030-12-31') })
-	.map((d) => d.toISOString());
+	.integer({ min: new Date('2020-01-01').getTime(), max: new Date('2030-12-31').getTime() })
+	.map((ms) => new Date(ms).toISOString());
 
 // ── Tests ────────────────────────────────────────────────────────────────────
 
