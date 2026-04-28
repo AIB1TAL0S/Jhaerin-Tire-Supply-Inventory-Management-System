@@ -1,0 +1,127 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@import '@fontsource/fira-mono';
+
+/* ── JTS-IMS Red & Black Theme ─────────────────────────────────────────────── */
+:root {
+	/* Typography */
+	--font-body:
+		Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Open Sans', 'Helvetica Neue', sans-serif;
+	--font-mono: 'Fira Mono', monospace;
+	font-family: var(--font-body);
+
+	/* Primary red */
+	--primary: #dc2626;
+	--primary-foreground: #ffffff;
+
+	/* Background black */
+	--background: #0a0a0a;
+	--foreground: #f5f5f5;
+
+	/* Card / surface */
+	--card: #141414;
+	--card-foreground: #f5f5f5;
+
+	/* Muted */
+	--muted: #1f1f1f;
+	--muted-foreground: #a1a1aa;
+
+	/* Border */
+	--border: #2a2a2a;
+
+	/* Input */
+	--input: #1a1a1a;
+
+	/* Popover */
+	--popover: #1a1a1a;
+	--popover-foreground: #f5f5f5;
+
+	/* Destructive */
+	--destructive: #ef4444;
+	--destructive-foreground: #ffffff;
+
+	/* Accent */
+	--accent: #1f1f1f;
+	--accent-foreground: #f5f5f5;
+
+	/* Success */
+	--success: #16a34a;
+
+	/* Legacy SvelteKit vars (kept for compatibility) */
+	--color-bg-0: #0a0a0a;
+	--color-bg-1: #0a0a0a;
+	--color-bg-2: #141414;
+	--color-theme-1: #dc2626;
+	--color-theme-2: #ef4444;
+	--color-text: #f5f5f5;
+}
+
+/* ── Base reset ─────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	background-color: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-body);
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+	line-height: 1.25;
+	color: var(--foreground);
+}
+
+p { line-height: 1.6; }
+
+a {
+	color: var(--primary);
+	text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+pre {
+	font-size: 14px;
+	font-family: var(--font-mono);
+	background-color: var(--muted);
+	border-radius: 4px;
+	padding: 0.75em 1em;
+	overflow-x: auto;
+	color: var(--foreground);
+}
+
+input, button, select, textarea {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+button:focus:not(:focus-visible) { outline: none; }
+
+/* ── Scrollbar (dark theme) ─────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--muted); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted-foreground); }
+
+/* ── Utility ────────────────────────────────────────────────────────────────── */
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+
+@media (min-width: 720px) {
+	h1 { font-size: 2rem; }
+}

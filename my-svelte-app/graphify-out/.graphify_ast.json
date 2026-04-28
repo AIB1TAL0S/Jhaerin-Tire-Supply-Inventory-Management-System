@@ -1,0 +1,4291 @@
+{
+  "nodes": [
+    {
+      "id": "vite_config_ts",
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "vitest_config_ts",
+      "label": "vitest.config.ts",
+      "file_type": "code",
+      "source_file": "vitest.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_d_ts",
+      "label": "app.d.ts",
+      "file_type": "code",
+      "source_file": "src/app.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_worker_configuration_d_ts",
+      "label": "worker-configuration.d.ts",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_worker_configuration_d_domexception",
+      "label": "DOMException",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L33"
+    },
+    {
+      "id": "src_worker_configuration_d_compileerror",
+      "label": "CompileError",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L213"
+    },
+    {
+      "id": "src_worker_configuration_d_runtimeerror",
+      "label": "RuntimeError",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L216"
+    },
+    {
+      "id": "src_worker_configuration_d_global",
+      "label": "Global",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L224"
+    },
+    {
+      "id": "src_worker_configuration_d_instance",
+      "label": "Instance",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L234"
+    },
+    {
+      "id": "src_worker_configuration_d_memory",
+      "label": "Memory",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L243"
+    },
+    {
+      "id": "src_worker_configuration_d_table",
+      "label": "Table",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L269"
+    },
+    {
+      "id": "src_worker_configuration_d_websocketrequestresponsepair",
+      "label": "WebSocketRequestResponsePair",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L609"
+    },
+    {
+      "id": "src_worker_configuration_d_event",
+      "label": "Event",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L636"
+    },
+    {
+      "id": "src_worker_configuration_d_eventtarget",
+      "label": "EventTarget",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L770"
+    },
+    {
+      "id": "src_worker_configuration_d_abortcontroller",
+      "label": "AbortController",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L808"
+    },
+    {
+      "id": "src_worker_configuration_d_customevent",
+      "label": "CustomEvent",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L894"
+    },
+    {
+      "id": "src_worker_configuration_d_blob",
+      "label": "Blob",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L914"
+    },
+    {
+      "id": "src_worker_configuration_d_file",
+      "label": "File",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L967"
+    },
+    {
+      "id": "src_worker_configuration_d_digeststream",
+      "label": "DigestStream",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1258"
+    },
+    {
+      "id": "src_worker_configuration_d_textdecoder",
+      "label": "TextDecoder",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1268"
+    },
+    {
+      "id": "src_worker_configuration_d_textencoder",
+      "label": "TextEncoder",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1285"
+    },
+    {
+      "id": "src_worker_configuration_d_errorevent",
+      "label": "ErrorEvent",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1317"
+    },
+    {
+      "id": "src_worker_configuration_d_messageevent",
+      "label": "MessageEvent",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1362"
+    },
+    {
+      "id": "src_worker_configuration_d_formdata",
+      "label": "FormData",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1422"
+    },
+    {
+      "id": "src_worker_configuration_d_htmlrewriter",
+      "label": "HTMLRewriter",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1502"
+    },
+    {
+      "id": "src_worker_configuration_d_headers",
+      "label": "Headers",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1595"
+    },
+    {
+      "id": "src_worker_configuration_d_readablestreamdefaultreader",
+      "label": "ReadableStreamDefaultReader",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2269"
+    },
+    {
+      "id": "src_worker_configuration_d_readablestreambyobreader",
+      "label": "ReadableStreamBYOBReader",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2291"
+    },
+    {
+      "id": "src_worker_configuration_d_writablestream",
+      "label": "WritableStream",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2478"
+    },
+    {
+      "id": "src_worker_configuration_d_writablestreamdefaultwriter",
+      "label": "WritableStreamDefaultWriter",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2510"
+    },
+    {
+      "id": "src_worker_configuration_d_transformstream",
+      "label": "TransformStream",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2560"
+    },
+    {
+      "id": "src_worker_configuration_d_fixedlengthstream",
+      "label": "FixedLengthStream",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2575"
+    },
+    {
+      "id": "src_worker_configuration_d_identitytransformstream",
+      "label": "IdentityTransformStream",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2578"
+    },
+    {
+      "id": "src_worker_configuration_d_compressionstream",
+      "label": "CompressionStream",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2592"
+    },
+    {
+      "id": "src_worker_configuration_d_decompressionstream",
+      "label": "DecompressionStream",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2600"
+    },
+    {
+      "id": "src_worker_configuration_d_textencoderstream",
+      "label": "TextEncoderStream",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2608"
+    },
+    {
+      "id": "src_worker_configuration_d_textdecoderstream",
+      "label": "TextDecoderStream",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2617"
+    },
+    {
+      "id": "src_worker_configuration_d_bytelengthqueuingstrategy",
+      "label": "ByteLengthQueuingStrategy",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2632"
+    },
+    {
+      "id": "src_worker_configuration_d_countqueuingstrategy",
+      "label": "CountQueuingStrategy",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2648"
+    },
+    {
+      "id": "src_worker_configuration_d_url",
+      "label": "URL",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2786"
+    },
+    {
+      "id": "src_worker_configuration_d_urlsearchparams",
+      "label": "URLSearchParams",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2958"
+    },
+    {
+      "id": "src_worker_configuration_d_urlpattern",
+      "label": "URLPattern",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L3025"
+    },
+    {
+      "id": "src_worker_configuration_d_closeevent",
+      "label": "CloseEvent",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L3073"
+    },
+    {
+      "id": "src_worker_configuration_d_eventsource",
+      "label": "EventSource",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L3246"
+    },
+    {
+      "id": "src_worker_configuration_d_messagechannel",
+      "label": "MessageChannel",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L3369"
+    },
+    {
+      "id": "src_worker_configuration_d_nonretryableerror",
+      "label": "NonRetryableError",
+      "file_type": "code",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L13456"
+    },
+    {
+      "id": "src_lib_supabase_ts",
+      "label": "supabase.ts",
+      "file_type": "code",
+      "source_file": "src/lib/supabase.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_errors_ts",
+      "label": "errors.ts",
+      "file_type": "code",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_errors_validationerror",
+      "label": "ValidationError",
+      "file_type": "code",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_errors_validationerror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L2"
+    },
+    {
+      "id": "lib_errors_duplicateproducterror",
+      "label": "DuplicateProductError",
+      "file_type": "code",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "lib_errors_duplicateproducterror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "lib_errors_notfounderror",
+      "label": "NotFoundError",
+      "file_type": "code",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "lib_errors_notfounderror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "lib_errors_insufficientstockerror",
+      "label": "InsufficientStockError",
+      "file_type": "code",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L22"
+    },
+    {
+      "id": "lib_errors_insufficientstockerror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L23"
+    },
+    {
+      "id": "src_lib_db_db_interface_ts",
+      "label": "db.interface.ts",
+      "file_type": "code",
+      "source_file": "src/lib/db/db.interface.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_db_tauri_sqlite_adapter_ts",
+      "label": "tauri-sqlite.adapter.ts",
+      "file_type": "code",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "db_tauri_sqlite_adapter_taurisqliteadapter",
+      "label": "TauriSQLiteAdapter",
+      "file_type": "code",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "db_tauri_sqlite_adapter_taurisqliteadapter_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "db_tauri_sqlite_adapter_taurisqliteadapter_getdb",
+      "label": ".getDb()",
+      "file_type": "code",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L17"
+    },
+    {
+      "id": "db_tauri_sqlite_adapter_taurisqliteadapter_query",
+      "label": ".query()",
+      "file_type": "code",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L26"
+    },
+    {
+      "id": "db_tauri_sqlite_adapter_taurisqliteadapter_execute",
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L31"
+    },
+    {
+      "id": "db_tauri_sqlite_adapter_taurisqliteadapter_transaction",
+      "label": ".transaction()",
+      "file_type": "code",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L36"
+    },
+    {
+      "id": "src_lib_db_wa_sqlite_adapter_ts",
+      "label": "wa-sqlite.adapter.ts",
+      "file_type": "code",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "db_wa_sqlite_adapter_wasqliteadapter",
+      "label": "WaSQLiteAdapter",
+      "file_type": "code",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "db_wa_sqlite_adapter_wasqliteadapter_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "db_wa_sqlite_adapter_wasqliteadapter_init",
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L19"
+    },
+    {
+      "id": "db_wa_sqlite_adapter_wasqliteadapter_query",
+      "label": ".query()",
+      "file_type": "code",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L35"
+    },
+    {
+      "id": "db_wa_sqlite_adapter_wasqliteadapter_execute",
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L54"
+    },
+    {
+      "id": "db_wa_sqlite_adapter_wasqliteadapter_transaction",
+      "label": ".transaction()",
+      "file_type": "code",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L64"
+    },
+    {
+      "id": "src_lib_db_index_ts",
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "db_index_istauri",
+      "label": "isTauri()",
+      "file_type": "code",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "db_index_createadapter",
+      "label": "createAdapter()",
+      "file_type": "code",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "db_index_getdb",
+      "label": "getDb()",
+      "file_type": "code",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L29"
+    },
+    {
+      "id": "db_index_db",
+      "label": "db()",
+      "file_type": "code",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L44"
+    },
+    {
+      "id": "src_lib_db_migrate_ts",
+      "label": "migrate.ts",
+      "file_type": "code",
+      "source_file": "src/lib/db/migrate.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "db_migrate_migrate",
+      "label": "migrate()",
+      "file_type": "code",
+      "source_file": "src/lib/db/migrate.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_lib_types_index_ts",
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "src/lib/types/index.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_schemas_tire_product_schema_ts",
+      "label": "tire-product.schema.ts",
+      "file_type": "code",
+      "source_file": "src/lib/schemas/tire-product.schema.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_schemas_stock_in_schema_ts",
+      "label": "stock-in.schema.ts",
+      "file_type": "code",
+      "source_file": "src/lib/schemas/stock-in.schema.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_schemas_stock_out_schema_ts",
+      "label": "stock-out.schema.ts",
+      "file_type": "code",
+      "source_file": "src/lib/schemas/stock-out.schema.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_schemas_sales_schema_ts",
+      "label": "sales.schema.ts",
+      "file_type": "code",
+      "source_file": "src/lib/schemas/sales.schema.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_schemas_user_schema_ts",
+      "label": "user.schema.ts",
+      "file_type": "code",
+      "source_file": "src/lib/schemas/user.schema.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_schemas_settings_schema_ts",
+      "label": "settings.schema.ts",
+      "file_type": "code",
+      "source_file": "src/lib/schemas/settings.schema.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_services_auth_service_ts",
+      "label": "auth.service.ts",
+      "file_type": "code",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_auth_service_mapsupabasesession",
+      "label": "mapSupabaseSession()",
+      "file_type": "code",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L13"
+    },
+    {
+      "id": "services_auth_service_authserviceimpl",
+      "label": "AuthServiceImpl",
+      "file_type": "code",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L28"
+    },
+    {
+      "id": "services_auth_service_authserviceimpl_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L31"
+    },
+    {
+      "id": "services_auth_service_authserviceimpl_login",
+      "label": ".login()",
+      "file_type": "code",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L38"
+    },
+    {
+      "id": "services_auth_service_authserviceimpl_logout",
+      "label": ".logout()",
+      "file_type": "code",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L49"
+    },
+    {
+      "id": "services_auth_service_authserviceimpl_refreshsession",
+      "label": ".refreshSession()",
+      "file_type": "code",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L55"
+    },
+    {
+      "id": "services_auth_service_authserviceimpl_getsession",
+      "label": ".getSession()",
+      "file_type": "code",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L67"
+    },
+    {
+      "id": "services_auth_service_authserviceimpl_getrole",
+      "label": ".getRole()",
+      "file_type": "code",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L71"
+    },
+    {
+      "id": "src_lib_services_inventory_service_ts",
+      "label": "inventory.service.ts",
+      "file_type": "code",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_inventory_service_maprow",
+      "label": "mapRow()",
+      "file_type": "code",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L18"
+    },
+    {
+      "id": "services_inventory_service_inventoryservice",
+      "label": "InventoryService",
+      "file_type": "code",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L35"
+    },
+    {
+      "id": "services_inventory_service_inventoryservice_listproducts",
+      "label": ".listProducts()",
+      "file_type": "code",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L36"
+    },
+    {
+      "id": "services_inventory_service_inventoryservice_getproduct",
+      "label": ".getProduct()",
+      "file_type": "code",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L97"
+    },
+    {
+      "id": "services_inventory_service_inventoryservice_createproduct",
+      "label": ".createProduct()",
+      "file_type": "code",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L109"
+    },
+    {
+      "id": "services_inventory_service_inventoryservice_updateproduct",
+      "label": ".updateProduct()",
+      "file_type": "code",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L148"
+    },
+    {
+      "id": "services_inventory_service_inventoryservice_archiveproduct",
+      "label": ".archiveProduct()",
+      "file_type": "code",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L190"
+    },
+    {
+      "id": "src_lib_services_stock_service_ts",
+      "label": "stock.service.ts",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_stock_service_rowtostockin",
+      "label": "rowToStockIn()",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L49"
+    },
+    {
+      "id": "services_stock_service_rowtostockout",
+      "label": "rowToStockOut()",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L62"
+    },
+    {
+      "id": "services_stock_service_stockservice",
+      "label": "StockService",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L74"
+    },
+    {
+      "id": "services_stock_service_stockservice_createstockin",
+      "label": ".createStockIn()",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L75"
+    },
+    {
+      "id": "services_stock_service_stockservice_updatestockin",
+      "label": ".updateStockIn()",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L97"
+    },
+    {
+      "id": "services_stock_service_stockservice_deletestockin",
+      "label": ".deleteStockIn()",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L125"
+    },
+    {
+      "id": "services_stock_service_stockservice_liststockin",
+      "label": ".listStockIn()",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L150"
+    },
+    {
+      "id": "services_stock_service_stockservice_createstockout",
+      "label": ".createStockOut()",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L171"
+    },
+    {
+      "id": "services_stock_service_stockservice_liststockout",
+      "label": ".listStockOut()",
+      "file_type": "code",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L201"
+    },
+    {
+      "id": "src_lib_services_sales_service_ts",
+      "label": "sales.service.ts",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_sales_service_maprow",
+      "label": "mapRow()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "services_sales_service_salesservice",
+      "label": "SalesService",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L31"
+    },
+    {
+      "id": "services_sales_service_salesservice_createsale",
+      "label": ".createSale()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L32"
+    },
+    {
+      "id": "services_sales_service_salesservice_updatesale",
+      "label": ".updateSale()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L73"
+    },
+    {
+      "id": "services_sales_service_salesservice_deletesale",
+      "label": ".deleteSale()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L113"
+    },
+    {
+      "id": "services_sales_service_salesservice_listsales",
+      "label": ".listSales()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L133"
+    },
+    {
+      "id": "src_lib_services_sales_service_property_test_ts",
+      "label": "sales.service.property.test.ts",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_sales_service_property_test_inmemorydb",
+      "label": "InMemoryDB",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L22"
+    },
+    {
+      "id": "services_sales_service_property_test_inmemorydb_gettable",
+      "label": ".getTable()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L25"
+    },
+    {
+      "id": "services_sales_service_property_test_inmemorydb_query",
+      "label": ".query()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L31"
+    },
+    {
+      "id": "services_sales_service_property_test_inmemorydb_execute",
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L63"
+    },
+    {
+      "id": "services_sales_service_property_test_inmemorydb_transaction",
+      "label": ".transaction()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L131"
+    },
+    {
+      "id": "services_sales_service_property_test_inmemorydb_seedproduct",
+      "label": ".seedProduct()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L137"
+    },
+    {
+      "id": "services_sales_service_property_test_inmemorydb_getproductqty",
+      "label": ".getProductQty()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L155"
+    },
+    {
+      "id": "services_sales_service_property_test_inmemorydb_getsale",
+      "label": ".getSale()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L161"
+    },
+    {
+      "id": "services_sales_service_property_test_freshdb",
+      "label": "freshDb()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L191"
+    },
+    {
+      "id": "src_lib_services_notification_service_ts",
+      "label": "notification.service.ts",
+      "file_type": "code",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_notification_service_istauri",
+      "label": "isTauri()",
+      "file_type": "code",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "services_notification_service_sendnativenotification",
+      "label": "sendNativeNotification()",
+      "file_type": "code",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "services_notification_service_rowtonotification",
+      "label": "rowToNotification()",
+      "file_type": "code",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_lib_services_analytics_service_ts",
+      "label": "analytics.service.ts",
+      "file_type": "code",
+      "source_file": "src/lib/services/analytics.service.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_analytics_service_granularityformat",
+      "label": "granularityFormat()",
+      "file_type": "code",
+      "source_file": "src/lib/services/analytics.service.ts",
+      "source_location": "L50"
+    },
+    {
+      "id": "src_lib_services_sync_service_ts",
+      "label": "sync.service.ts",
+      "file_type": "code",
+      "source_file": "src/lib/services/sync.service.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_sync_service_isbrowser",
+      "label": "isBrowser()",
+      "file_type": "code",
+      "source_file": "src/lib/services/sync.service.ts",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_lib_services_data_service_ts",
+      "label": "data.service.ts",
+      "file_type": "code",
+      "source_file": "src/lib/services/data.service.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_stores_session_store_ts",
+      "label": "session.store.ts",
+      "file_type": "code",
+      "source_file": "src/lib/stores/session.store.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_stores_sync_state_store_ts",
+      "label": "sync-state.store.ts",
+      "file_type": "code",
+      "source_file": "src/lib/stores/sync-state.store.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_stores_notifications_store_ts",
+      "label": "notifications.store.ts",
+      "file_type": "code",
+      "source_file": "src/lib/stores/notifications.store.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "stores_notifications_store_loadnotifications",
+      "label": "loadNotifications()",
+      "file_type": "code",
+      "source_file": "src/lib/stores/notifications.store.ts",
+      "source_location": "L11"
+    },
+    {
+      "id": "src_lib_stores_toast_store_ts",
+      "label": "toast.store.ts",
+      "file_type": "code",
+      "source_file": "src/lib/stores/toast.store.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "stores_toast_store_showtoast",
+      "label": "showToast()",
+      "file_type": "code",
+      "source_file": "src/lib/stores/toast.store.ts",
+      "source_location": "L11"
+    },
+    {
+      "id": "src_lib_stores_settings_store_ts",
+      "label": "settings.store.ts",
+      "file_type": "code",
+      "source_file": "src/lib/stores/settings.store.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "stores_settings_store_loadsettings",
+      "label": "loadSettings()",
+      "file_type": "code",
+      "source_file": "src/lib/stores/settings.store.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "stores_settings_store_getgloballowstockthreshold",
+      "label": "getGlobalLowStockThreshold()",
+      "file_type": "code",
+      "source_file": "src/lib/stores/settings.store.ts",
+      "source_location": "L14"
+    },
+    {
+      "id": "stores_settings_store_getdeadstockwindowdays",
+      "label": "getDeadStockWindowDays()",
+      "file_type": "code",
+      "source_file": "src/lib/stores/settings.store.ts",
+      "source_location": "L19"
+    },
+    {
+      "id": "src_routes_page_ts",
+      "label": "+page.ts",
+      "file_type": "code",
+      "source_file": "src/routes/+page.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_routes_layout_ts",
+      "label": "+layout.ts",
+      "file_type": "code",
+      "source_file": "src/routes/+layout.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_routes_about_page_ts",
+      "label": "+page.ts",
+      "file_type": "code",
+      "source_file": "src/routes/about/+page.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_routes_auth_login_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(auth)/login/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "login_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(auth)/login/+page.server.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_routes_auth_register_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "register_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_routes_auth_reset_password_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(auth)/reset-password/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "reset_password_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(auth)/reset-password/+page.server.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "src_routes_app_inventory_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "inventory_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "src_routes_app_inventory_id_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "id_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "src_routes_app_stock_in_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "in_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "src_routes_app_sales_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "sales_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_routes_app_dashboard_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/dashboard/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "dashboard_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/dashboard/+page.server.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_routes_app_analytics_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/analytics/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "analytics_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/analytics/+page.server.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_routes_app_settings_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "settings_page_server_getsettings",
+      "label": "getSettings()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "settings_page_server_getproviders",
+      "label": "getProviders()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "settings_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L23"
+    },
+    {
+      "id": "src_routes_app_settings_backup_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/settings/backup/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "backup_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/settings/backup/+page.server.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_routes_app_users_page_server_ts",
+      "label": "+page.server.ts",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/users/+page.server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "users_page_server_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "src/routes/(app)/users/+page.server.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_tauri_build_rs",
+      "label": "build.rs",
+      "file_type": "code",
+      "source_file": "src-tauri/build.rs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_tauri_build_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src-tauri/build.rs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_tauri_src_lib_rs",
+      "label": "lib.rs",
+      "file_type": "code",
+      "source_file": "src-tauri/src/lib.rs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_run",
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/lib.rs",
+      "source_location": "L2"
+    },
+    {
+      "id": "src_tauri_src_main_rs",
+      "label": "main.rs",
+      "file_type": "code",
+      "source_file": "src-tauri/src/main.rs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_main_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/main.rs",
+      "source_location": "L6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "vite_config_ts",
+      "target": "vite",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "vite",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "vite",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "vitest_config_ts",
+      "target": "config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "vitest.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "vitest_config_ts",
+      "target": "vite",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "vitest.config.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_domexception",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_compileerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_runtimeerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_global",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_instance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L234",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_memory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_table",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L269",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_websocketrequestresponsepair",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L609",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_event",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L636",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_eventtarget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L770",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_abortcontroller",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L808",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_customevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L894",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_blob",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L914",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_file",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L967",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_digeststream",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1258",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_textdecoder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1268",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_textencoder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1285",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_errorevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1317",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_messageevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1362",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_formdata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1422",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_htmlrewriter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1502",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_headers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L1595",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_readablestreamdefaultreader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2269",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_readablestreambyobreader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2291",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_writablestream",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2478",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_writablestreamdefaultwriter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2510",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_transformstream",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2560",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_fixedlengthstream",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2575",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_identitytransformstream",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2578",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_compressionstream",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2592",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_decompressionstream",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2600",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_textencoderstream",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2608",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_textdecoderstream",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2617",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_bytelengthqueuingstrategy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2632",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_countqueuingstrategy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2648",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_url",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2786",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_urlsearchparams",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L2958",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_urlpattern",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L3025",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_closeevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L3073",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_eventsource",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L3246",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_messagechannel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L3369",
+      "weight": 1.0
+    },
+    {
+      "source": "src_worker_configuration_d_ts",
+      "target": "src_worker_configuration_d_nonretryableerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/worker-configuration.d.ts",
+      "source_location": "L13456",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_supabase_ts",
+      "target": "supabase_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/supabase.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_supabase_ts",
+      "target": "public",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/supabase.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_errors_ts",
+      "target": "lib_errors_validationerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_errors_validationerror",
+      "target": "lib_errors_validationerror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_errors_ts",
+      "target": "lib_errors_duplicateproducterror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_errors_duplicateproducterror",
+      "target": "lib_errors_duplicateproducterror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_errors_ts",
+      "target": "lib_errors_notfounderror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_errors_notfounderror",
+      "target": "lib_errors_notfounderror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_errors_ts",
+      "target": "lib_errors_insufficientstockerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_errors_insufficientstockerror",
+      "target": "lib_errors_insufficientstockerror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/errors.ts",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_tauri_sqlite_adapter_ts",
+      "target": "src_lib_db_db_interface_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_tauri_sqlite_adapter_ts",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter_getdb",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter_query",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter_execute",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter_transaction",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter_query",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter_getdb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter_execute",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter_getdb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter_transaction",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter_getdb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter_transaction",
+      "target": "db_tauri_sqlite_adapter_taurisqliteadapter_execute",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_wa_sqlite_adapter_ts",
+      "target": "src_lib_db_db_interface_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_wa_sqlite_adapter_ts",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "db_wa_sqlite_adapter_wasqliteadapter",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "db_wa_sqlite_adapter_wasqliteadapter",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "db_wa_sqlite_adapter_wasqliteadapter",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter_query",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "db_wa_sqlite_adapter_wasqliteadapter",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter_execute",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "db_wa_sqlite_adapter_wasqliteadapter",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter_transaction",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "db_wa_sqlite_adapter_wasqliteadapter_query",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter_init",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "db_wa_sqlite_adapter_wasqliteadapter_execute",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter_init",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "db_wa_sqlite_adapter_wasqliteadapter_transaction",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter_execute",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/wa-sqlite.adapter.ts",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_index_ts",
+      "target": "src_lib_db_db_interface_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_index_ts",
+      "target": "db_index_istauri",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_index_ts",
+      "target": "db_index_createadapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_index_ts",
+      "target": "db_index_getdb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_index_ts",
+      "target": "db_index_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "db_index_createadapter",
+      "target": "db_index_istauri",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "db_index_getdb",
+      "target": "db_index_createadapter",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/index.ts",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_migrate_ts",
+      "target": "src_lib_db_db_interface_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/migrate.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_migrate_ts",
+      "target": "db_migrate_migrate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/migrate.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_schemas_tire_product_schema_ts",
+      "target": "zod",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/schemas/tire-product.schema.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_schemas_stock_in_schema_ts",
+      "target": "zod",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/schemas/stock-in.schema.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_schemas_stock_out_schema_ts",
+      "target": "zod",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/schemas/stock-out.schema.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_schemas_sales_schema_ts",
+      "target": "zod",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/schemas/sales.schema.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_schemas_user_schema_ts",
+      "target": "zod",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/schemas/user.schema.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_schemas_settings_schema_ts",
+      "target": "zod",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/schemas/settings.schema.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_auth_service_ts",
+      "target": "supabase",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_auth_service_ts",
+      "target": "session_store",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_auth_service_ts",
+      "target": "types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_auth_service_ts",
+      "target": "services_auth_service_mapsupabasesession",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_auth_service_ts",
+      "target": "services_auth_service_authserviceimpl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "services_auth_service_authserviceimpl",
+      "target": "services_auth_service_authserviceimpl_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "services_auth_service_authserviceimpl",
+      "target": "services_auth_service_authserviceimpl_login",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "services_auth_service_authserviceimpl",
+      "target": "services_auth_service_authserviceimpl_logout",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "services_auth_service_authserviceimpl",
+      "target": "services_auth_service_authserviceimpl_refreshsession",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "services_auth_service_authserviceimpl",
+      "target": "services_auth_service_authserviceimpl_getsession",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "services_auth_service_authserviceimpl",
+      "target": "services_auth_service_authserviceimpl_getrole",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "services_auth_service_authserviceimpl_login",
+      "target": "services_auth_service_mapsupabasesession",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "services_auth_service_authserviceimpl_refreshsession",
+      "target": "services_auth_service_mapsupabasesession",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/auth.service.ts",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_inventory_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_inventory_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_inventory_service_ts",
+      "target": "tire_product_schema_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_inventory_service_ts",
+      "target": "errors_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_inventory_service_ts",
+      "target": "services_inventory_service_maprow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_inventory_service_ts",
+      "target": "services_inventory_service_inventoryservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice",
+      "target": "services_inventory_service_inventoryservice_listproducts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice",
+      "target": "services_inventory_service_inventoryservice_getproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice",
+      "target": "services_inventory_service_inventoryservice_createproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice",
+      "target": "services_inventory_service_inventoryservice_updateproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice",
+      "target": "services_inventory_service_inventoryservice_archiveproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_getproduct",
+      "target": "services_inventory_service_maprow",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_createproduct",
+      "target": "services_inventory_service_inventoryservice_getproduct",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_updateproduct",
+      "target": "services_inventory_service_inventoryservice_getproduct",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_archiveproduct",
+      "target": "services_inventory_service_inventoryservice_getproduct",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_stock_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_stock_service_ts",
+      "target": "errors_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_stock_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_stock_service_ts",
+      "target": "stock_in_schema_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_stock_service_ts",
+      "target": "services_stock_service_rowtostockin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_stock_service_ts",
+      "target": "services_stock_service_rowtostockout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_stock_service_ts",
+      "target": "services_stock_service_stockservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice",
+      "target": "services_stock_service_stockservice_createstockin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice",
+      "target": "services_stock_service_stockservice_updatestockin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice",
+      "target": "services_stock_service_stockservice_deletestockin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice",
+      "target": "services_stock_service_stockservice_liststockin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice",
+      "target": "services_stock_service_stockservice_createstockout",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice",
+      "target": "services_stock_service_stockservice_liststockout",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_createstockin",
+      "target": "services_stock_service_rowtostockin",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_updatestockin",
+      "target": "services_stock_service_rowtostockin",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_createstockout",
+      "target": "services_stock_service_rowtostockout",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_ts",
+      "target": "sales_schema_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_ts",
+      "target": "errors_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_ts",
+      "target": "services_sales_service_maprow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_ts",
+      "target": "services_sales_service_salesservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice",
+      "target": "services_sales_service_salesservice_createsale",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice",
+      "target": "services_sales_service_salesservice_updatesale",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice",
+      "target": "services_sales_service_salesservice_deletesale",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice",
+      "target": "services_sales_service_salesservice_listsales",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice_createsale",
+      "target": "services_sales_service_maprow",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice_updatesale",
+      "target": "services_sales_service_maprow",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_property_test_ts",
+      "target": "vitest",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_property_test_ts",
+      "target": "fast_check",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_property_test_ts",
+      "target": "db_interface_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_property_test_ts",
+      "target": "errors_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_property_test_ts",
+      "target": "services_sales_service_property_test_inmemorydb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb",
+      "target": "services_sales_service_property_test_inmemorydb_gettable",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb",
+      "target": "services_sales_service_property_test_inmemorydb_query",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb",
+      "target": "services_sales_service_property_test_inmemorydb_execute",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb",
+      "target": "services_sales_service_property_test_inmemorydb_transaction",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb",
+      "target": "services_sales_service_property_test_inmemorydb_seedproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb",
+      "target": "services_sales_service_property_test_inmemorydb_getproductqty",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb",
+      "target": "services_sales_service_property_test_inmemorydb_getsale",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sales_service_property_test_ts",
+      "target": "services_sales_service_property_test_freshdb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb_query",
+      "target": "services_sales_service_property_test_inmemorydb_gettable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb_execute",
+      "target": "services_sales_service_property_test_inmemorydb_gettable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb_seedproduct",
+      "target": "services_sales_service_property_test_inmemorydb_gettable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb_getproductqty",
+      "target": "services_sales_service_property_test_inmemorydb_gettable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_property_test_inmemorydb_getsale",
+      "target": "services_sales_service_property_test_inmemorydb_gettable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sales.service.property.test.ts",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_notification_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_notification_service_ts",
+      "target": "notifications_store_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_notification_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_notification_service_ts",
+      "target": "services_notification_service_istauri",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_notification_service_ts",
+      "target": "services_notification_service_sendnativenotification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_notification_service_ts",
+      "target": "services_notification_service_rowtonotification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/notification.service.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_analytics_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/analytics.service.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_analytics_service_ts",
+      "target": "notification_service_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/analytics.service.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_analytics_service_ts",
+      "target": "services_analytics_service_granularityformat",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/analytics.service.ts",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sync_service_ts",
+      "target": "sync_state_store_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sync.service.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sync_service_ts",
+      "target": "notification_service_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sync.service.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_sync_service_ts",
+      "target": "services_sync_service_isbrowser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/sync.service.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_data_service_ts",
+      "target": "supabase_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/data.service.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_data_service_ts",
+      "target": "index_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/data.service.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_data_service_ts",
+      "target": "notification_service_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/data.service.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_data_service_ts",
+      "target": "tire_product_schema_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/data.service.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_data_service_ts",
+      "target": "stock_in_schema_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/data.service.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_data_service_ts",
+      "target": "stock_out_schema_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/data.service.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_services_data_service_ts",
+      "target": "sales_schema_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/services/data.service.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_session_store_ts",
+      "target": "store",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/session.store.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_session_store_ts",
+      "target": "supabase",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/session.store.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_session_store_ts",
+      "target": "types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/session.store.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_sync_state_store_ts",
+      "target": "store",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/sync-state.store.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_sync_state_store_ts",
+      "target": "types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/sync-state.store.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_notifications_store_ts",
+      "target": "store",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/notifications.store.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_notifications_store_ts",
+      "target": "types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/notifications.store.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_notifications_store_ts",
+      "target": "stores_notifications_store_loadnotifications",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/notifications.store.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_toast_store_ts",
+      "target": "store",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/toast.store.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_toast_store_ts",
+      "target": "stores_toast_store_showtoast",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/toast.store.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_settings_store_ts",
+      "target": "store",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/settings.store.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_settings_store_ts",
+      "target": "stores_settings_store_loadsettings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/settings.store.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_settings_store_ts",
+      "target": "stores_settings_store_getgloballowstockthreshold",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/settings.store.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_stores_settings_store_ts",
+      "target": "stores_settings_store_getdeadstockwindowdays",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/stores/settings.store.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_about_page_ts",
+      "target": "environment",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/about/+page.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_login_page_server_ts",
+      "target": "sveltekit_superforms",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/login/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_login_page_server_ts",
+      "target": "adapters",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/login/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_login_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/login/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_login_page_server_ts",
+      "target": "user_schema",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/login/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_login_page_server_ts",
+      "target": "supabase",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/login/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_login_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_auth_login_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/login/+page.server.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_login_page_server_ts",
+      "target": "login_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/login/+page.server.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_register_page_server_ts",
+      "target": "sveltekit_superforms",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_register_page_server_ts",
+      "target": "adapters",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_register_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_register_page_server_ts",
+      "target": "user_schema",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_register_page_server_ts",
+      "target": "supabase",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_register_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_auth_register_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_register_page_server_ts",
+      "target": "register_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_reset_password_page_server_ts",
+      "target": "sveltekit_superforms",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/reset-password/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_reset_password_page_server_ts",
+      "target": "adapters",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/reset-password/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_reset_password_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/reset-password/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_reset_password_page_server_ts",
+      "target": "zod",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/reset-password/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_reset_password_page_server_ts",
+      "target": "supabase",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/reset-password/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_reset_password_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_auth_reset_password_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/reset-password/+page.server.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_auth_reset_password_page_server_ts",
+      "target": "reset_password_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(auth)/reset-password/+page.server.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_page_server_ts",
+      "target": "sveltekit_superforms",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_page_server_ts",
+      "target": "adapters",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_page_server_ts",
+      "target": "tire_product_schema",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_page_server_ts",
+      "target": "inventory_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_page_server_ts",
+      "target": "errors",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_app_inventory_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_page_server_ts",
+      "target": "inventory_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_id_page_server_ts",
+      "target": "sveltekit_superforms",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_id_page_server_ts",
+      "target": "adapters",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_id_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_id_page_server_ts",
+      "target": "tire_product_schema",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_id_page_server_ts",
+      "target": "inventory_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_id_page_server_ts",
+      "target": "errors",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_id_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_app_inventory_id_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_inventory_id_page_server_ts",
+      "target": "id_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_stock_in_page_server_ts",
+      "target": "sveltekit_superforms",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_stock_in_page_server_ts",
+      "target": "adapters",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_stock_in_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_stock_in_page_server_ts",
+      "target": "stock_in_schema",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_stock_in_page_server_ts",
+      "target": "stock_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_stock_in_page_server_ts",
+      "target": "inventory_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_stock_in_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_app_stock_in_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_stock_in_page_server_ts",
+      "target": "in_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_sales_page_server_ts",
+      "target": "sveltekit_superforms",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_sales_page_server_ts",
+      "target": "adapters",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_sales_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_sales_page_server_ts",
+      "target": "sales_schema",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_sales_page_server_ts",
+      "target": "sales_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_sales_page_server_ts",
+      "target": "inventory_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_sales_page_server_ts",
+      "target": "errors",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_sales_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_app_sales_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_sales_page_server_ts",
+      "target": "sales_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_dashboard_page_server_ts",
+      "target": "inventory_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/dashboard/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_dashboard_page_server_ts",
+      "target": "analytics_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/dashboard/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_dashboard_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_app_dashboard_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/dashboard/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_dashboard_page_server_ts",
+      "target": "dashboard_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/dashboard/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_analytics_page_server_ts",
+      "target": "analytics_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/analytics/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_analytics_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_app_analytics_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/analytics/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_analytics_page_server_ts",
+      "target": "analytics_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/analytics/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_page_server_ts",
+      "target": "sveltekit_superforms",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_page_server_ts",
+      "target": "adapters",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_page_server_ts",
+      "target": "settings_schema",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_page_server_ts",
+      "target": "index",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_app_settings_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_page_server_ts",
+      "target": "settings_page_server_getsettings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_page_server_ts",
+      "target": "settings_page_server_getproviders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_page_server_ts",
+      "target": "settings_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "settings_page_server_load",
+      "target": "settings_page_server_getsettings",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "settings_page_server_load",
+      "target": "settings_page_server_getproviders",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_backup_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/backup/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_backup_page_server_ts",
+      "target": "data_service",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/backup/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_backup_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_app_settings_backup_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/backup/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_settings_backup_page_server_ts",
+      "target": "backup_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/settings/backup/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_users_page_server_ts",
+      "target": "sveltekit_superforms",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/users/+page.server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_users_page_server_ts",
+      "target": "adapters",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/users/+page.server.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_users_page_server_ts",
+      "target": "kit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/users/+page.server.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_users_page_server_ts",
+      "target": "user_schema",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/users/+page.server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_users_page_server_ts",
+      "target": "supabase",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/users/+page.server.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_users_page_server_ts",
+      "target": "home_cuassant_documents_github_jhaerin_tire_supply_inventory_management_system_my_svelte_app_src_routes_app_users_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/users/+page.server.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_routes_app_users_page_server_ts",
+      "target": "users_page_server_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/(app)/users/+page.server.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_tauri_build_rs",
+      "target": "src_tauri_build_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/build.rs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_tauri_src_lib_rs",
+      "target": "src_lib_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/lib.rs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_tauri_src_main_rs",
+      "target": "manager",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/main.rs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_tauri_src_main_rs",
+      "target": "src_main_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/main.rs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "db_tauri_sqlite_adapter_taurisqliteadapter_getdb",
+      "target": "users_page_server_load",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/db/tauri-sqlite.adapter.ts",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "db_migrate_migrate",
+      "target": "services_sales_service_property_test_inmemorydb_execute",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/db/migrate.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_listproducts",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_getproduct",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_createproduct",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_createproduct",
+      "target": "services_sales_service_property_test_inmemorydb_execute",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_updateproduct",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_updateproduct",
+      "target": "services_sales_service_property_test_inmemorydb_execute",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_archiveproduct",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "services_inventory_service_inventoryservice_archiveproduct",
+      "target": "services_sales_service_property_test_inmemorydb_execute",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/inventory.service.ts",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_createstockin",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_createstockin",
+      "target": "services_sales_service_property_test_inmemorydb_transaction",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_updatestockin",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_updatestockin",
+      "target": "services_sales_service_property_test_inmemorydb_transaction",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_deletestockin",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_deletestockin",
+      "target": "services_sales_service_property_test_inmemorydb_transaction",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_liststockin",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_createstockout",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_createstockout",
+      "target": "services_sales_service_property_test_inmemorydb_transaction",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "services_stock_service_stockservice_liststockout",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/stock.service.ts",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice_createsale",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice_createsale",
+      "target": "services_sales_service_property_test_inmemorydb_transaction",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice_updatesale",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice_updatesale",
+      "target": "services_sales_service_property_test_inmemorydb_transaction",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice_deletesale",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice_deletesale",
+      "target": "services_sales_service_property_test_inmemorydb_transaction",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "services_sales_service_salesservice_listsales",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/services/sales.service.ts",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "stores_settings_store_loadsettings",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/stores/settings.store.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "register_page_server_load",
+      "target": "services_auth_service_authserviceimpl_getsession",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(auth)/register/+page.server.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "inventory_page_server_load",
+      "target": "services_inventory_service_inventoryservice_listproducts",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/inventory/+page.server.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "id_page_server_load",
+      "target": "services_inventory_service_inventoryservice_getproduct",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/inventory/[id]/+page.server.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "in_page_server_load",
+      "target": "services_stock_service_stockservice_liststockin",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "in_page_server_load",
+      "target": "services_inventory_service_inventoryservice_listproducts",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/stock/in/+page.server.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "sales_page_server_load",
+      "target": "services_sales_service_salesservice_listsales",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "sales_page_server_load",
+      "target": "services_inventory_service_inventoryservice_listproducts",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/sales/+page.server.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_page_server_load",
+      "target": "services_inventory_service_inventoryservice_listproducts",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/dashboard/+page.server.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "settings_page_server_getsettings",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "settings_page_server_getproviders",
+      "target": "db_index_getdb",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "settings_page_server_getproviders",
+      "target": "services_sales_service_property_test_inmemorydb_query",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/routes/(app)/settings/+page.server.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_main",
+      "target": "src_lib_run",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src-tauri/src/main.rs",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_main",
+      "target": "db_wa_sqlite_adapter_wasqliteadapter_init",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src-tauri/src/main.rs",
+      "source_location": "L11",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

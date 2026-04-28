@@ -1,0 +1,17 @@
+# PowerSync Sync Rules for JTS-IMS
+# Defines bucket definitions that scope data per authenticated user.
+
+bucket_definitions:
+  user_data:
+    parameters:
+      - name: user_id
+        token_parameter: sub
+
+    data:
+      - SELECT * FROM tire_products
+      - SELECT * FROM stock_in_transactions
+      - SELECT * FROM stock_out_transactions
+      - SELECT * FROM sales_transactions
+      - SELECT * FROM delivery_providers
+      - SELECT * FROM notifications WHERE user_id = $user_id
+      - SELECT * FROM settings WHERE user_id = $user_id
